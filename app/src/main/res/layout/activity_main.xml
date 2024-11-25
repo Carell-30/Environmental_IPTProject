@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="start">
+
+    <!-- PM2.5 Input -->
+    <EditText
+        android:id="@+id/pm25EditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/pm25_label"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000"
+        android:importantForAutofill="no" /> <!-- Explicitly disable autofill -->
+
+    <!-- CO2 Level Input -->
+    <EditText
+        android:id="@+id/co2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/co2_label"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000"
+        android:importantForAutofill="no" /> <!-- Explicitly disable autofill -->
+
+    <!-- Noise Level Input -->
+    <EditText
+        android:id="@+id/noiseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/noise_label"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000"
+        android:importantForAutofill="no" /> <!-- Explicitly disable autofill -->
+
+    <!-- Water pH Input -->
+    <EditText
+        android:id="@+id/waterPhEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/water_ph_label"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000"
+        android:importantForAutofill="no" /> <!-- Explicitly disable autofill -->
+
+    <!-- Predict Button -->
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/predict_button"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Prediction Result -->
+    <TextView
+        android:id="@+id/predictionResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prediction_result"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

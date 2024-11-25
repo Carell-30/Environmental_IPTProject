@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Environmental IPP Project</string>
+    <string name="pm25_label">PM2.5:</string>
+    <string name="co2_label">CO2 Level:</string>
+    <string name="noise_label">Noise Level:</string>
+    <string name="water_ph_label">Water pH:</string>
+    <string name="predict_button">Predict</string>
+    <string name="prediction_result">Prediction:</string> <!-- Removed %1$s placeholder -->
+    <string name="error_message">Error: </string>
+    <string name="failure_message">Failure: </string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="pm25_label_input">PM2.5 Input</string>
+    <string name="co2_label_input">CO2 Level Input</string>
+    <string name="noise_label_input">Noise Level Input</string>
+    <string name="water_ph_label_input">Water pH Input</string>
+    <string name="predict_button_input">Predict Button</string>
+    <string name="prediction_result_input">Prediction Result</string>
+</resources>
